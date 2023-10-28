@@ -1,0 +1,24 @@
+{
+  "name": "react-responsive-text",
+  "author": "José Tomás González",
+  "license": "MIT",
+  "version": "1.0.0",
+  "description": "Generate single line responsive texts",
+  "repository": "https://github.com/GonzalezAnguita/react-responsive-text",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "./dist/**/*"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && npx tsc",
+    "publish": "npm publish --access public"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28"
+  }
+}
