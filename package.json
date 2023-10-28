@@ -4,7 +4,10 @@
   "license": "MIT",
   "version": "1.0.0",
   "description": "Generate single line responsive texts",
-  "repository": "https://github.com/GonzalezAnguita/react-responsive-text",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GonzalezAnguita/react-responsive-text.git"
+  },
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
