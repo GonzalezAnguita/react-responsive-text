@@ -7,9 +7,13 @@ export function ResponsiveText(props: React.SVGTextElementAttributes<SVGTextElem
     useEffect(() => {
         if (textRef.current === null || svgRef.current === null) return;
 
-        const width = textRef.current.clientWidth * 2;
+        const width = textRef.current.clientWidth;
+        const height = textRef.current.clientHeight;
 
-        svgRef.current.setAttribute('viewBox', `0 0 ${width} 20`);
+        const containerHeight = 20;
+        const containerWidth = containerHeight * width / height;
+
+        svgRef.current.setAttribute('viewBox', `0 0 ${containerWidth} ${containerHeight}`);
     }, [textRef]);
 
     return (
