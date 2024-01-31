@@ -2,7 +2,7 @@
   "name": "react-responsive-text",
   "author": "José Tomás González",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate single line responsive texts",
   "repository": {
     "type": "git",
